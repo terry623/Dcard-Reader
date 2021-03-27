@@ -1,6 +1,8 @@
 # Dcard Reader
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+> 瀏覽 Dcard 時下最熱門的文章！
+
+![image](./public/demo.gif)
 
 ## Getting Started
 
@@ -35,3 +37,9 @@ src
 └── .eslintrc.js
 └── .prettierrc
 ```
+
+## Features
+
+- Awesome feature 1
+- Awesome feature 2
+- Awesome feature 3
