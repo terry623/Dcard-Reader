@@ -18,30 +18,25 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## File Structure
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 ```
-src
+dcard-reader
 ├── components
-│   └── InfiniteScroll
-│   └── Loader
-│   └── Main
-│   └── Post
-│   └── PostContainer
+│   └── InfiniteScroll      # Infinite Scroll 實作
+│   └── Loader              # 載入文字 UI
+│   └── Post                # 單個文章 UI
+│   └── PostsContainer      # 文章列表 UI
 ├── pages
 │   └── api
-│   │   └── posts.js
-│   └── index.js
+│   │   └── posts.js        # 呼叫 Dcard 的 API
+│   └── index.js            # 主要邏輯
 ├── services
 │   └── api
-│   │   └── base.js
-│   │   └── index.js
+│   │   └── base.js         # API 呼叫的基本型態＆狀況處理
+│   │   └── index.js        # UI 呼叫各種 API 的 method
 ├── theme
-│   └── index.js
-└── .eslintrc.js
-└── .prettierrc
+│   └── index.js            # 主題，例如：Primary Color
+└── .eslintrc.js            # ESlint 設定檔
+└── .prettierrc             # Prettier 設定檔
 ```
-
-## Features
-
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
