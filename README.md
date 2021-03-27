@@ -6,6 +6,13 @@
 
 ![image](./public/demo.gif)
 
+## Features
+
+- 使用 Intersection Observer API 實現 Infinite Scroll
+- 使用 Next.js 的 Serverless API Routes‌ 呼叫 Dcard API，避免 CORS 的問題
+- 使用 Styled Components 撰寫 CSS 樣式
+- 使用 ESLint 和 Prettier 規範 Coding Style，Husky 和 Lint-staged 測試是否符合規範
+
 ## Getting Started
 
 First, run the development server:
