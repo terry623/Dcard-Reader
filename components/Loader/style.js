@@ -6,11 +6,10 @@ const Container = styled.div`
   text-align: center;
 `;
 
-const Content = styled.div`
-  span {
-    font-size: 24px;
-    margin: 0 8px;
-  }
+const Text = styled.span`
+  font-size: 24px;
+  margin: 0 8px;
+  color: ${({ theme }) => theme.colors.primary};
 `;
 
-export { Container, Content };
+export { Container, Text };

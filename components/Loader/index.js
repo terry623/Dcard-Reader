@@ -1,16 +1,14 @@
 import React from "react";
 
-import { Container, Content } from "./style";
+import { Container, Text } from "./style";
 
-const text = "LOADING...".split("");
+const loadingText = "LOADING...".split("");
 
 const Loader = () => (
   <Container>
-    <Content>
-      {text.map((t, k) => (
-        <span key={k}>{t}</span>
-      ))}
-    </Content>
+    {loadingText.map((t, k) => (
+      <Text key={k}>{t}</Text>
+    ))}
   </Container>
 );
 
