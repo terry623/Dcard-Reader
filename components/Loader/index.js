@@ -2,19 +2,14 @@ import React from "react";
 
 import { Container, Content } from "./style";
 
+const text = "LOADING...".split("");
+
 const Loader = () => (
   <Container>
     <Content>
-      <span>L</span>
-      <span>O</span>
-      <span>A</span>
-      <span>D</span>
-      <span>I</span>
-      <span>N</span>
-      <span>G</span>
-      <span>.</span>
-      <span>.</span>
-      <span>.</span>
+      {text.map((t, k) => (
+        <span key={k}>{t}</span>
+      ))}
     </Content>
   </Container>
 );
